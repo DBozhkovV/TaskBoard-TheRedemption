@@ -1,0 +1,168 @@
+.navbar-custom {
+  background-color: #7749F8;
+}
+
+.nav-text1 {
+  color: white;
+  margin: 0.4rem;
+  font-size: 130%;
+}
+
+.todo__header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 15rem;
+}
+
+.todo_title {
+  box-sizing: border-box;
+  border: 1px solid #CED4DA;
+  border-radius: 4px;
+  background: #FFFFFF;
+}
+
+.description1 {
+  width: 20rem;
+  height: 10rem;
+  box-sizing: border-box;
+  border: 1px solid #CED4DA;
+  border-radius: 4px;
+  background: #FFFFFF;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  gap: 7rem;
+} 
+
+.todo__create {
+  width: 85px;
+  height: 39px;
+  border: none;
+  background: #7749F8;
+  border-radius: 4px;
+  color: white;
+}
+
+.todo-box {
+  flex-grow: 1;
+  border: 1px solid #DEE2E6;
+  border-radius: 5px;
+  background: #FFFFFF;
+  margin-bottom: -23rem;
+  width: 18rem;
+}
+
+.todo {
+  display: flex;
+  flex-direction: column;
+}
+
+.form1 {
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+
+.item-l1 {
+  background: #FFFFFF;
+  border: 1px solid #DEE2E6;
+  border-radius: 0px;
+  height: 7rem;
+}
+
+.item-l1-selected {
+  background: purple;
+  border: 1px solid #DEE2E6;
+  border-radius: 0px;
+  height: 7rem;
+}
+
+.but1 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 68px;
+  position: absolute;
+  width: 27px;
+  height: 33px;
+  left: 46rem;
+  top: 16rem;
+  border: 1px solid #000000;
+}
+
+.but1-hovered {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 68px;
+  position: absolute;
+  width: 27px;
+  height: 33px;
+  left: 46rem;
+  top: 16rem;
+  border: 1px solid #000000;
+  background: #7749F8;
+}
+
+.but2 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 68px;
+  position: absolute;
+  width: 27px;
+  height: 33px;
+  left: 71rem;
+  top: 16rem;
+  border: 1px solid #000000;
+}
+
+.but2-hovered {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 68px;
+  position: absolute;
+  width: 27px;
+  height: 33px;
+  left: 71rem;
+  top: 16rem;
+  border: 1px solid #000000;
+  background: #7749F8;
+}
+
+.in-progress {
+  display: flex;
+  flex-direction: column;
+}
+
+.done {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-header {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.item-done {
+  background: green;
+  border: 1px solid #DEE2E6;
+  border-radius: 0px;
+  height: 7rem;  
+}
